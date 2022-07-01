@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/fragment1">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.tugassensor2022akb10119091.fragment1"
+        android:label="PetaDuniaku"
+        tools:layout="@layout/fragment_fragment1" />
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.tugassensor2022akb10119091.fragment2"
+        android:label="Profil"
+        tools:layout="@layout/fragment_fragment2" />
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.tugassensor2022akb10119091.fragment3"
+        android:label="Tentang Kami"
+        tools:layout="@layout/fragment_fragment3" />
+</navigation>
